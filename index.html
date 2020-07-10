@@ -1,29 +1,39 @@
 <html> 
 <head> 
-	<title>Register</title> 
-</head> 
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	
+</head>
+
 <body> 
-	<form>	
-	 First name:<br><input type="text" id ="fname" name="fname"><br>
-	 Last name:<br> <input type="text" name="enter the last name"><br>
-	 Email id: <br><input type="Email" name="email" required><br>
-	 Password:<br><input type="password" name="password" min="5"><br>
-	 Birthdate: <input type="date" name="birthday"><br>
-	 gender <br>
-	      <input type="radio" name="gender"> Male<br>
-	      <input type="radio" name="gender"> Female<br>
-	      <input type="radio" name="gender"> other<br>
-	Pets<br>
-	<input type="checkbox" name="cat">Cat<br>
-	<input type="checkbox" name="dog"> Dog<br>
-	Cars:<br>
-	<select>
-	  <option value="Baleno" name="baleno"> Baleno</option>
-	  <option value="polo" name="polo"> polo</option>
-	  </select><br>
+	<h1> Register </h1>
+	<form class="form-style">	
+		
+				<input type="text" name="field1" class="field-style field-split align-left" placeholder="First Name" />
+				<input type="text" name="field1" class="field-style field-split align-left" placeholder="Last Name" />
+			
+	
+	  <input type="email" name="email" required class="field-style field-split align-left" placeholder="Email" /> 
+	  <input type="password" name="password" class="field-style field-split align-left" min="5" placeholder="Password" />
+	  <input type="password" name="password" class="field-style field-split align-left" min="5" placeholder="Re-enter Password" />
+	  <br><br> 		
+	 gender <select>
+		<option value ="Male"  name="gender"> Male</option>
+		<option value ="Female"  name="gender"> Female</option>
+		<option value ="Other" name="gender"> Other</option>
+		</select>
+		<br><br>
+
+	 Birthdate: <input type="date" name="birthday"><br><br>
+	
+	
+	
 	<input type="submit" value="Register">
-	<input type="reset"> 
+	
+
 	</form>
-</body> 
+</body>
+
+ 
 </html>					 
 
