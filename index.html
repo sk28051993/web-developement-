@@ -7,7 +7,7 @@
 
 <body> 
 	<h1> Register </h1>
-	<form class="form-style">	
+	<form class="form-style"> /* classes for css */	
 		
 				<input type="text" name="field1" class="field-style field-split align-left" placeholder="First Name" />
 				<input type="text" name="field1" class="field-style field-split align-left" placeholder="Last Name" />
@@ -16,7 +16,9 @@
 	  <input type="email" name="email" required class="field-style field-split align-left" placeholder="Email" /> 
 	  <input type="password" name="password" class="field-style field-split align-left" min="5" placeholder="Password" />
 	  <input type="password" name="password" class="field-style field-split align-left" min="5" placeholder="Re-enter Password" />
-	  <br><br> 		
+	  <br><br> 	
+	  
+	  <div id = first> /* #id is used as class */
 	 gender <select>
 		<option value ="Male"  name="gender"> Male</option>
 		<option value ="Female"  name="gender"> Female</option>
@@ -25,7 +27,7 @@
 		<br><br>
 
 	 Birthdate: <input type="date" name="birthday"><br><br>
-	
+	</div>
 	
 	
 	<input type="submit" value="Register">

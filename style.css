@@ -16,11 +16,17 @@ h1{
 	border-radius: 10px;
     border: 6px solid #305A72;
 }
-    
+	
+#first{
+	background: rgba(0,0,255,0.2);
+
+}
+
 .form-style  input[type="button"]:hover, 
 .form-style  input[type="submit"]:hover  {
 	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
     background-color: #28739E;
+    cursor: pointer;
     
 }
 
